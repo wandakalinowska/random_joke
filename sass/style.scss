@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+@import url('https://fonts.googleapis.com/css?family=Kumar+One');
+
+$font: 'Graduate', cursive;
+$font-span: 'Kumar One', cursive;
+$blue: #1A69A6;
+$brown: #753A1C;
+
+
+body {
+    overflow: hidden;
+    width: 800px;
+    height: 800px;
+}
+
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.app {
+	font-family: $font;
+	text-align: center;
+	color: $brown;
+	width: 600px;
+	height: 600px;
+	margin-top: 50px;
+	border: solid 2px $brown;
+	padding: 20px;
+	border-radius: 10%;
+	box-shadow: 10px 10px;
+	
+	h1 {
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		padding: 10px 0 0 0;
+	}
+	p {
+		margin: 20px;
+	}
+}
+
+.line {
+	border: solid 1px $brown;
+	background-color: $brown;
+	margin-bottom: 10px;
+}
+
+.image {
+	width: 100%;
+	margin: 0 auto;
+	border: solid 2px $brown;
+	border-radius: 20%;
+	background-color: #01040B;
+	img {
+		width: 50%;
+	}
+}
+
+.chuck {
+  	font-family: $font-span;
+	font-size: 30px;
+	color: #FF3000;
+	letter-spacing: 0px;
+}
+
+.btn {
+	font-family: $font;
+  	padding: 20px;
+  	margin-top: 20px;
+	border: solid 2px $brown ;
+	color: $brown;
+	background-color: #fff;
+	border-radius:20%;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn:hover {
+	background-color: $brown;
+	color: #fff;
+}
+
+@media (max-width: 1300px) {
+
+	.app {
+		width: 40%;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.app {
+		width: 50%;
+		h1 {
+		font-size: 16px;
+		}
+	}
+	.chuck {
+		font-size: 24px;
+	}
+
+
+}
+
+@media (max-width: 650px) {
+
+	.app {
+		width: 60%;
+		h1 {
+		font-size: 14px;
+		}
+	}
+	.chuck {
+		font-size: 22px;
+	}
+
+}
+
+@media (max-width: 450px) {
+
+	.app {
+		width: 90%;
+	}
+
+	.chuck {
+	font-size: 18px;
+	}
+
+}
