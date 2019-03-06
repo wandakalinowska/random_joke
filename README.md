@@ -7,7 +7,7 @@ https://wandakalinowska.github.io/random_joke/
 
 Mini-aplikacja, która po naciśnięciu buttona pobiera losowy dowcip o Chucku Norrisie z użyciem API. 
 
-### Rozwiązania, tchnologie i narzędzia:
+### Rozwiązania, technologie i narzędzia:
 
 * HTML 5
 * CSS 3
